@@ -38,18 +38,18 @@ Madlib random - Assignment #154
         String[] bodyparts_pl = { "teeth", "legs", "arms", "ears", "eyes", "hands" };
 
 
-        int mi   = 0 + (int)(Math.random()* males.length       ); // male
-        int fi   = 0 + (int)(Math.random()* females.length     ); // female
-        int ai1  = 0 + (int)(Math.random()* adjectives.length  ); // adjective 1
-        int ai2  = 0 + (int)(Math.random()* adjectives.length  ); // adjective 2
-        int vi1  = 0 + (int)(Math.random()* verbs_pt.length    ); // past-tense verb 1
-        int ni1  = 0 + (int)(Math.random()* nouns.length       ); // singular noun 1
-        int numi = 0 + (int)(Math.random()* numbers.length     ); // number
-        int ci   = 0 + (int)(Math.random()* colors.length      ); // color
-        int ni2  = 0 + (int)(Math.random()* nouns.length       ); // singular noun 2
-        int bi   = 0 + (int)(Math.random()* bodyparts_pl.length); // body part (plural)
-        int vi2  = 0 + (int)(Math.random()* verbs_pt.length    ); // past-tense verb 2
-        int adv  = 0 + (int)(Math.random()* adverbs.length     ); // adverbs
+        int mi   = (int)(Math.random()* males.length       ); // male
+        int fi   = (int)(Math.random()* females.length     ); // female
+        int ai1  = (int)(Math.random()* adjectives.length  ); // adjective 1
+        int ai2  = (int)(Math.random()* adjectives.length  ); // adjective 2
+        int vi1  = (int)(Math.random()* verbs_pt.length    ); // past-tense verb 1
+        int ni1  = (int)(Math.random()* nouns.length       ); // singular noun 1
+        int numi = (int)(Math.random()* numbers.length     ); // number
+        int ci   = (int)(Math.random()* colors.length      ); // color
+        int ni2  = (int)(Math.random()* nouns.length       ); // singular noun 2
+        int bi   = (int)(Math.random()* bodyparts_pl.length); // body part (plural)
+        int vi2  = (int)(Math.random()* verbs_pt.length    ); // past-tense verb 2
+        int adv  = (int)(Math.random()* adverbs.length     ); // adverbs
 
         String male     = males[mi];
         String female   = females[fi];
